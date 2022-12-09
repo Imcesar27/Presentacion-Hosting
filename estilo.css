@@ -1,0 +1,127 @@
+#divBotones{
+    text-align: center;
+}
+
+html, body{
+    background:url(img/purple.jpg);
+	background-size:cover;
+    background-repeat: no-repeat;
+	background-attachment:fixed;
+    
+}
+
+li{
+    color:white;
+}
+
+img{
+    
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+    
+}
+
+/*h3:nth-child(1n){
+    color: blue;
+}*/
+
+.imagenHTML{/*Para posicionar la imagen*/
+
+    display: flex;
+    justify-content: center;
+    height: 200px !important;
+}
+
+
+.hidden{
+    display: none;
+} 
+.contenedor{
+    margin: 50px 50px 0 50px;
+    border:solid 1px rgb(146, 28, 178);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    background-color: rgba(0, 0, 0, 0.6);/*Para poner opacidad en el color*/
+    transition: 0.3s ease;
+}
+
+h2{
+    color:rgb(174, 32, 209)
+}
+
+body a{
+    font-size: 20px;
+    color: rgb(174, 32, 209) ;
+    transition: 0.3s all;/**Transicion en base a segundos para el cambio de color*/
+}
+
+body a:hover{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+i:hover, .bullet:hover{
+    cursor: pointer;
+}
+
+.bulletContainer{
+    height: 25px;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.bullet{
+    background-color: white;
+    border-radius: 100%;
+    width: 13px;
+    height: 13px;
+    margin-left: 2px;
+    transition: 0.3s all
+}
+
+
+.selected{
+    background-color: blueviolet;
+}
+
+
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.next:hover, .previous:hover{
+
+    background-color: white !important;
+    color: black !important;
+    
+
+}
+
+.bullet:hover{
+
+    background-color: rgba(137, 43, 226, 0.402);
+}
+.next, .previous{
+    background-color: blueviolet !important;
+    color: white !important;
+    transition: 0.3s all
+}
+
+
+.slide{
+    margin: 5px;
+}
